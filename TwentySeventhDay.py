@@ -1,9 +1,12 @@
-<<<<<<< HEAD
-#Abstract Class
-
-import abc 
-=======
 #Abstract class
 
 from abc import ABC,abstractclassmethod
->>>>>>> temp-branch
+
+class Father(ABC):
+    @abstractclassmethod
+    def show(self):
+        pass
+    
+    def show(self):
+        print("Concrete Method")
+        
