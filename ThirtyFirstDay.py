@@ -28,3 +28,22 @@ with open('student.dat',mode='rb') as f:
     obj1=pickle.load(f)
     print('UnPickling Done!!!!!!!!')
     obj1.show_details()
+
+
+#Directory=os module==used to perform simple operation on directories
+# os.getcwd() ==know current directory
+# mkdir('dirname')==used to make a directory
+# mkdir('parentdirectory/childdirectory')=used to create a child directory
+# mkdirs('parent/child/grandchild')=used to create a child a grandchild Directory
+# chdir('dirname')=to change current directory
+# rename('oldname','newname')=to rename a directory
+# rmdir('dirname')=to remove a directory
+# rmdirs('parent/child')=to remove all directory
+# walk()=used to know the contents of directory,returns iterator whose objects can be displayed using for loop
+
+import os
+print(os.getcwd())#^^^^^^^^^^^^^^^^^^^^ can impliment all ^^^^^^^^^^^^^^^^^^^^
+os.mkdir('mydirThirtyFirstDay/mydirChild')
+
+
+#DATABASE
