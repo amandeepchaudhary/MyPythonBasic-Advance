@@ -1,5 +1,2 @@
-with open('AmanFileHandling.txt',mode='r') as f1:
-    data=f1.read()
-    print(data)
-    print(f1.closed)
-print(f1.closed)
+,mode='rb') as f:
+#     obj1=pickle.load(f)
