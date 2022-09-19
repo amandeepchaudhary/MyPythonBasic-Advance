@@ -1,0 +1,45 @@
+WARNING:root:This is Warning
+ERROR:root:This is a Error
+CRITICAL:root:This is Critical
+DEBUG:root:This is debug
+INFO:root:This is Info
+WARNING:root:This is Warning
+ERROR:root:This is a Error
+CRITICAL:root:This is Critical
+157 *** 2022-09-20 00:44:20,386 *** This is debug ==
+158 *** 2022-09-20 00:44:20,386 *** This is Info ==
+159 *** 2022-09-20 00:44:20,386 *** This is Warning ==
+160 *** 2022-09-20 00:44:20,386 *** This is a Error ==
+161 *** 2022-09-20 00:44:20,386 *** This is Critical ==
+158 *** 2022-09-20 00:45:55,466 *** This is debug ==
+159 *** 2022-09-20 00:45:55,466 *** This is Info ==
+160 *** 2022-09-20 00:45:55,466 *** This is Warning ==
+161 *** 2022-09-20 00:45:55,466 *** This is a Error ==
+162 *** 2022-09-20 00:45:55,466 *** This is Critical ==
+160 *** 2022-09-20 00:46:59,878 *** This is debug ==
+161 *** 2022-09-20 00:46:59,878 *** This is Info ==
+162 *** 2022-09-20 00:46:59,878 *** This is Warning ==
+163 *** 2022-09-20 00:46:59,878 *** This is a Error ==
+164 *** 2022-09-20 00:46:59,878 *** This is Critical ==
+160 *** 2022-09-20 00:48:20,520 ***root *** This is debug
+161 *** 2022-09-20 00:48:20,520 ***root *** This is Info
+162 *** 2022-09-20 00:48:20,520 ***root *** This is Warning
+163 *** 2022-09-20 00:48:20,520 ***root *** This is a Error
+164 *** 2022-09-20 00:48:20,520 ***root *** This is Critical
+160 *** 2022-09-20 00:49:26,744 ***aman *** This is debug
+161 *** 2022-09-20 00:49:26,744 ***aman *** This is Info
+162 *** 2022-09-20 00:49:26,744 ***aman *** This is Warning
+163 *** 2022-09-20 00:49:26,744 ***aman *** This is a Error
+164 *** 2022-09-20 00:49:26,744 ***aman *** This is Critical
+160 *** 2022-09-20 00:51:44,360 ***aman *** This is debug
+161 *** 2022-09-20 00:51:44,360 ***aman *** Admin Logging
+168 *** 2022-09-20 01:02:12,337 ***aman *** This is debug
+169 *** 2022-09-20 01:02:12,337 ***aman *** Admin Logging
+168 *** 2022-09-20 01:03:24,986 ***aman *** This is debug
+169 *** 2022-09-20 01:03:24,986 ***aman *** Admin Logging
+168 *** 2022-09-20 01:03:42,600 ***aman *** This is debug
+169 *** 2022-09-20 01:03:42,600 ***aman *** Admin Logging
+171 *** 2022-09-20 01:03:47,578 ***aman *** Admin Signout
+172 *** 2022-09-20 01:03:47,578 ***aman *** This is Warning
+173 *** 2022-09-20 01:03:47,578 ***aman *** This is a Error
+174 *** 2022-09-20 01:03:47,578 ***aman *** This is Critical
