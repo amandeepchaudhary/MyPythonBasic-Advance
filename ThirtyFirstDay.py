@@ -144,3 +144,31 @@ assert a<=10,'Invalid1'
 
 # a=20    #if false then assert excaprion statement happens
 # assert a<=10,'Invalid2'
+
+#logging >>>>>>>>>>>used for logging info more in django>>
+#have levels 0=notset,10=debug,20=info,,30=warning,40=error,50=Critical
+#default=30 set hota hai toh hum 30 40 50 dekh payenge
+#  
+from logging import *
+#hume ek file create krni h jisme hume logging ka data mile>>>>>>>>>>>>>>>>
+#filemode append hota h automatically
+LOG_FORMAT='{lineno} *** {asctime} ***{name} *** {message}'    #Clean code
+basicConfig(filename='myLog.log',level=DEBUG,style='{',format=LOG_FORMAT)
+#logger ka name change >>>>
+logger=getLogger('aman')
+
+def adminlogging():
+    username=input('Enter Your Username or Phone number:')
+    password=input('Password:')
+    if (username=='aman' and password=='diksha'):
+        print('Logged In!!!!!!')
+    else:
+        print('Wrong Match!!!!!')
+
+logger.debug('This is debug')
+logger.info('Admin Logging')
+adminlogging()
+logger.info('Admin Signout')
+logger.warning('This is Warning')  #this is showing as the deafult level is 30 soo warning will be seen at without anything
+logger.error('This is a Error')    #showing automatically
+logger.critical('This is Critical')    #showing automatically
